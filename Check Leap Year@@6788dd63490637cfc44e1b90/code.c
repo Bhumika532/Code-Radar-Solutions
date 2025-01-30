@@ -1,17 +1,15 @@
 #include<stdio.h>
-//#include<matlib.h>
-//#include<conio.h>
-void  main()
+int  main()
 {
     int n;
     scanf("%d",&n);
-    if(n%400==0)
+    if(n%4==0)
     {
         printf("Leap Year");
     }
-    else
+    if(n%4!==0)
     {
         printf("Not a Leap Year");
     }
-    return;
+    return 0;
 }
