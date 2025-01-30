@@ -1,7 +1,7 @@
 #include<stdio.h>
 //#include<matlib.h>
 //#include<conio.h>
-int main()
+ main()
 {
     int n;
     scanf("%d",&n);
@@ -13,5 +13,5 @@ int main()
     {
         printf("Not a Leap Year");
     }
-    return 0;
+    return;
 }
