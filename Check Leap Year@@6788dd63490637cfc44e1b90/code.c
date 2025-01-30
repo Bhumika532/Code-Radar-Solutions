@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<matlib.h>
 //#include<conio.h>
 int main()
 {
