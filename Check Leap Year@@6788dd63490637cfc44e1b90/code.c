@@ -1,7 +1,7 @@
 #include<stdio.h>
 //#include<matlib.h>
 //#include<conio.h>
- main()
+void  main()
 {
     int n;
     scanf("%d",&n);
