@@ -18,7 +18,7 @@ int main(){
         printf("%d",a/b);
         break;
         default:
-        printf("error");
+        printf("Invalid operator");
     }
     return 0;
 }
