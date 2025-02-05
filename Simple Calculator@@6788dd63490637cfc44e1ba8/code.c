@@ -1,36 +1,26 @@
 #include <stdio.h>
-
-int main() {
-    int num1, num2, result;
-    char operator;
-    scanf("%d", &num1);
-    scanf(" %c", &operator);  
-    scanf("%d", &num2);
-
-    switch(operator) {
-        case '+':
-            result = num1 + num2;
-            printf("%d", result);
-            break;
-        case '-':
-            result = num1 - num2;
-            printf("%d", result);
-            break;
-        case '*':
-            result = num1 * num2;
-            printf("%d", result);
-            break;
-        case '/':
-            if (num2 == 0) {
-                printf("error\n");
-            } else {
-                result = num1 / num2;
-                printf("%d", result);
-            }
-            break;
-        default:
+int main(){
+    int a,b;
+    char op;
+    scanf("%d %d %c",&a,&b,&op);
+    
+    if(op=='+'){
+        printf("%d",a+b);
+    }else if(op=='-'){
+        printf("%d",a-b);
+    }else if(op=='*'){
+        printf("%d",a*b);
+    }else if(op=='/'){
+        if(b!=0){
+            printf("%d",a/b);
+        }else{
             printf("error");
+        }
     }
-
+    
+    else{
+        printf("error");
+    }
+    
     return 0;
 }
